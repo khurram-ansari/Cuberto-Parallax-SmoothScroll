@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-container {
+  @apply container px-6 py-12 lg:p-28 mx-auto;
+}
+
+.cards-grid {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-9;
+}
+.card {
+  @apply text-center flex flex-col gap-14;
+}
+.card .image-container {
+  @apply relative max-h-[80%] overflow-hidden flex justify-center items-center;
+}
